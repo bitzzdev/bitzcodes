@@ -1,6 +1,7 @@
 package com.bitzcodes.bitzcodes.data
 
 import android.content.Context
+import android.content.Intent
 import android.net.Uri
 import androidx.documentfile.provider.DocumentFile
 import com.bitzcodes.bitzcodes.domain.model.Workspace
@@ -182,10 +183,4 @@ class FileResolver(private val context: Context) {
         }
         return current
     }
-}
-
-// Helper object for taking SAF URI intent flags
-object Intent {
-    const val FLAG_GRANT_READ_URI_PERMISSION = 1
-    const val FLAG_GRANT_WRITE_URI_PERMISSION = 2
 }
