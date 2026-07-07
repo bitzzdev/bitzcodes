@@ -1,6 +1,7 @@
 package com.bitzcodes.bitzcodes.ui.chat
 
 import androidx.compose.animation.*
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
